@@ -1,4 +1,5 @@
 /video_chatgpt/demo/demo_sample_videos/*.mp4
+**/__pycache__/**
 /scripts/LLaVA-7B-Lightening-v1-1/
 /video_chatgpt-7B.bin
 gradio_web_server.log
