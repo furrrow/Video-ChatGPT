@@ -79,7 +79,8 @@ def video_chatgpt_infer(video_frames, question, conv_mode, model, vision_tower, 
 
     # Preprocess video frames and get image tensor
     image_tensor = image_processor.preprocess(video_frames, return_tensors='pt')['pixel_values']
-
+    # hijack to have no video input!!
+    image_tensor = torch.zeros_like(image_tensor)
     # Move image tensor to GPU and reduce precision to half
     image_tensor = image_tensor.half().cuda()
 

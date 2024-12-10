@@ -9,7 +9,7 @@ from video_chatgpt.constants import *
 import torch
 
 
-def load_video(vis_path, n_clips=1, num_frm=100):
+def load_video(vis_path, n_clips=1, num_frm=100, mode="PIL"):
     """
     Load video frames from a video file.
 

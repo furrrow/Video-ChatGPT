@@ -1,0 +1,11 @@
+/video_chatgpt/demo/demo_sample_videos/*.mp4
+/scripts/LLaVA-7B-Lightening-v1-1/
+/video_chatgpt-7B.bin
+gradio_web_server.log
+# https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
+# User-specific stuff
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf
